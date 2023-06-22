@@ -18,13 +18,11 @@ class CircleObject:
 
 
 def calc_area(self):
-    a = math.pi * self.radius * self.radius
-    return a
+    return math.pi * self.radius * self.radius
 
 
 def calc_perimeter(self):
-    peri = 2 * math.pi * self.radius
-    return peri
+    return 2 * math.pi * self.radius
 
 
 if __name__ == '__main__':
